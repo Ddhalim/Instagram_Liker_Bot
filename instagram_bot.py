@@ -4,15 +4,12 @@ import pyautogui as pt
 import pyperclip as pc
 from pynput.mouse import Controller, Button
 from time import sleep
-#from whatsapp_responses import response
 
 #instruction for instagram bot
 
 class instagram:
 
     #defines starting values
-    
-
     def __init__(self, speed=.5, click_speed=.3):
         self.speed = speed
         self.click_speed = click_speed
@@ -216,40 +213,6 @@ class instagram:
         except Exception as e:
             print('Exception (close_chrome): ', e)
    
-    #copy the message
-#    def get_message(self):
-#        pt.tripleClick(interval=self.click_speed)
-#        sleep(self.speed)
-#        pt.click(button='right', interval=self.click_speed)
-#        sleep(self.speed)
-#        pt.moveRel(10, -150, duration=self.speed)
-#        pt.click(interval=self.click_speed)
-#        sleep(1)
-
-#        self.message = pc.paste()
-#        print('user says: ', self.message)
-
-    #send message
-#    def send_message(self):
-#        try:
-            #check if the last message is the same
-#            if self.message != self.last_message:
-#                bot_response = response(self.message)
-#                print('you say: ', bot_response)
-#                pt.typewrite(bot_response, interval=.1)
-#                pt.typewrite('\n') #simulate enterkey
-
-                #assign them the same message
-#                self.last_message = self.message
-            
-#            else:
-#                print('No new messages..')
-        
-#        except Exception as e:
-#            print('Exception (send_message): ', e)
-        
-
-
 instagram_bot = instagram(speed=.5, click_speed=.4)
 sleep(3)
 n=1
