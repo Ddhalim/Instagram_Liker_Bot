@@ -126,6 +126,7 @@ class instagram:
             sleep(self.speed)
             pt.click(interval=self.click_speed)
             sleep(1)
+            
         except Exception as e:
             print('Exception (nav_like): ', e)
     
@@ -217,15 +218,20 @@ instagram_bot = instagram(speed=.5, click_speed=.4)
 sleep(3)
 n=1
 x=0
+print('enter itteration: ')
+itt = int(input())
+sleep(3)
 y=0
+z=0
 #run program in a loop
-while y < 12:
+while y < itt:
     i = 0
     #first itteration
     instagram_bot.nav_likes_one()
     pt.click(button='right', interval=0.1)
     sleep(1)
     position_x = pt.locateOnScreen('open_tab.PNG', confidence=.7)
+    position_y = pt.locateOnScreen('post.PNG', confidence=.7)
     while i < 1:
             if position_x == None:
                 pt.click(interval=0.1)
@@ -239,10 +245,19 @@ while y < 12:
                 sleep(3)
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
+
+                # if position_y != None:
+                #     z = z + 1
+                #     print('IG Likes: ', z)
+                # else:
+                #     print('lokasi like tidak ditemukan')
+                #     break
+
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
                     n=2
+                    
                 elif n == 2:
                     instagram_bot.nav_comment_two()
                     n=3
@@ -286,6 +301,14 @@ while y < 12:
                 sleep(3)
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
+
+                # if position_y != None:
+                #     z = z + 1
+                #     print('IG Likes: ', z)
+                # else:
+                #     print('lokasi like tidak ditemukan')
+                #     break
+
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
@@ -296,6 +319,7 @@ while y < 12:
                 else:
                     instagram_bot.nav_comment_three()
                     n = 1
+                
                 break
     # instagram_bot.open_new_tab()
     # instagram_bot.nav_new_tab()
@@ -314,7 +338,7 @@ while y < 12:
     if position_x != None:
         instagram_bot.close_new_tab()
     x = x + 1
-    print('IG Profile likes: ', x)
+    print('IG Profile processed: ', x)
 
     #third itteration
     instagram_bot.nav_likes_three()
@@ -334,6 +358,14 @@ while y < 12:
                 sleep(3)
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
+
+                # if position_y != None:
+                #     z = z + 1
+                #     print('IG Likes: ', z)
+                # else:
+                #     print('lokasi like tidak ditemukan')
+                #     break
+
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
@@ -344,6 +376,7 @@ while y < 12:
                 else:
                     instagram_bot.nav_comment_three()
                     n = 1
+              
                 break
     # instagram_bot.open_new_tab()
     # instagram_bot.nav_new_tab()
@@ -362,7 +395,7 @@ while y < 12:
     if position_x != None:
         instagram_bot.close_new_tab()
     x = x + 1
-    print('IG Profile likes: ', x)
+    print('IG Profile processed: ', x)
 
     #fourth itteration
     instagram_bot.nav_likes_four()
@@ -382,6 +415,14 @@ while y < 12:
                 sleep(3)
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
+
+                # if position_y != None:
+                #     z = z + 1
+                #     print('IG Likes: ', z)
+                # else:
+                #     print('lokasi like tidak ditemukan')
+                #     break
+
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
@@ -392,6 +433,7 @@ while y < 12:
                 else:
                     instagram_bot.nav_comment_three()
                     n = 1
+                
                 break
     # instagram_bot.open_new_tab()
     # instagram_bot.nav_new_tab()
@@ -410,7 +452,7 @@ while y < 12:
     if position_x != None:
         instagram_bot.close_new_tab()
     x = x + 1
-    print('IG Profile likes: ', x)
+    print('IG Profile processed: ', x)
 
     #fifth itteration
     instagram_bot.nav_likes_five()
@@ -430,6 +472,14 @@ while y < 12:
                 sleep(3)
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
+
+                # if position_y != None:
+                #     z = z + 1
+                #     print('IG Likes: ', z)
+                # else:
+                #     print('lokasi like tidak ditemukan')
+                #     break
+
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
@@ -440,6 +490,7 @@ while y < 12:
                 else:
                     instagram_bot.nav_comment_three()
                     n = 1
+               
                 break
     # instagram_bot.open_new_tab()
     # instagram_bot.nav_new_tab()
@@ -458,7 +509,7 @@ while y < 12:
     if position_x != None:
         instagram_bot.close_new_tab()
     x = x + 1
-    print('IG Profile likes: ', x)
+    print('IG Profile processed: ', x)
 
     #sixth itteration
     instagram_bot.nav_likes_six()
@@ -478,6 +529,14 @@ while y < 12:
                 sleep(3)
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
+
+                # if position_y != None:
+                #     z = z + 1
+                #     print('IG Likes: ', z)
+                # else:
+                #     print('lokasi like tidak ditemukan')
+                #     break
+
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
@@ -488,6 +547,7 @@ while y < 12:
                 else:
                     instagram_bot.nav_comment_three()
                     n = 1
+                
                 break
     # instagram_bot.open_new_tab()
     # instagram_bot.nav_new_tab()
@@ -506,7 +566,7 @@ while y < 12:
     if position_x != None:
         instagram_bot.close_new_tab()
     x = x + 1
-    print('IG Profile likes: ', x)
+    print('IG Profile processed: ', x)
 
     y = y + 1
     #scrolling to next six likes
