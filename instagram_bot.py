@@ -246,13 +246,6 @@ while y < itt:
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
 
-                # if position_y != None:
-                #     z = z + 1
-                #     print('IG Likes: ', z)
-                # else:
-                #     print('lokasi like tidak ditemukan')
-                #     break
-
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
@@ -265,19 +258,7 @@ while y < itt:
                     instagram_bot.nav_comment_three()
                     n = 1
                 break
-    # instagram_bot.open_new_tab()
-    # instagram_bot.nav_new_tab()
-    # instagram_bot.nav_first_post()
-    # instagram_bot.nav_like()
-    # if n == 1:
-    #     instagram_bot.nav_comment_one()
-    #     n=2
-    # elif n == 2:
-    #     instagram_bot.nav_comment_two()
-    #     n=3
-    # else:
-    #     instagram_bot.nav_comment_three()
-    #     n = 1
+
     if position_x != None:
         instagram_bot.close_new_tab()
     x = x + 1
@@ -302,13 +283,6 @@ while y < itt:
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
 
-                # if position_y != None:
-                #     z = z + 1
-                #     print('IG Likes: ', z)
-                # else:
-                #     print('lokasi like tidak ditemukan')
-                #     break
-
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
@@ -321,20 +295,7 @@ while y < itt:
                     n = 1
                 
                 break
-    # instagram_bot.open_new_tab()
-    # instagram_bot.nav_new_tab()
-    # instagram_bot.nav_first_post()
-    # instagram_bot.nav_like()
-    # if n == 1:
-    #     instagram_bot.nav_comment_one()
-    #     n=2
-    # elif n == 2:
-    #     instagram_bot.nav_comment_two()
-    #     n=3
-    # else:
-    #     instagram_bot.nav_comment_three()
-    #     n = 1
-    # instagram_bot.close_new_tab()
+
     if position_x != None:
         instagram_bot.close_new_tab()
     x = x + 1
@@ -359,13 +320,6 @@ while y < itt:
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
 
-                # if position_y != None:
-                #     z = z + 1
-                #     print('IG Likes: ', z)
-                # else:
-                #     print('lokasi like tidak ditemukan')
-                #     break
-
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
@@ -378,20 +332,7 @@ while y < itt:
                     n = 1
               
                 break
-    # instagram_bot.open_new_tab()
-    # instagram_bot.nav_new_tab()
-    # instagram_bot.nav_first_post()
-    # instagram_bot.nav_like()
-    # if n == 1:
-    #     instagram_bot.nav_comment_one()
-    #     n=2
-    # elif n == 2:
-    #     instagram_bot.nav_comment_two()
-    #     n=3
-    # else:
-    #     instagram_bot.nav_comment_three()
-    #     n = 1
-    # instagram_bot.close_new_tab()
+
     if position_x != None:
         instagram_bot.close_new_tab()
     x = x + 1
@@ -416,13 +357,6 @@ while y < itt:
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
 
-                # if position_y != None:
-                #     z = z + 1
-                #     print('IG Likes: ', z)
-                # else:
-                #     print('lokasi like tidak ditemukan')
-                #     break
-
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
@@ -435,20 +369,7 @@ while y < itt:
                     n = 1
                 
                 break
-    # instagram_bot.open_new_tab()
-    # instagram_bot.nav_new_tab()
-    # instagram_bot.nav_first_post()
-    # instagram_bot.nav_like()
-    # if n == 1:
-    #     instagram_bot.nav_comment_one()
-    #     n=2
-    # elif n == 2:
-    #     instagram_bot.nav_comment_two()
-    #     n=3
-    # else:
-    #     instagram_bot.nav_comment_three()
-    #     n = 1
-    # instagram_bot.close_new_tab()
+
     if position_x != None:
         instagram_bot.close_new_tab()
     x = x + 1
@@ -473,13 +394,6 @@ while y < itt:
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
 
-                # if position_y != None:
-                #     z = z + 1
-                #     print('IG Likes: ', z)
-                # else:
-                #     print('lokasi like tidak ditemukan')
-                #     break
-
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
@@ -492,20 +406,7 @@ while y < itt:
                     n = 1
                
                 break
-    # instagram_bot.open_new_tab()
-    # instagram_bot.nav_new_tab()
-    # instagram_bot.nav_first_post()
-    # instagram_bot.nav_like()
-    # if n == 1:
-    #     instagram_bot.nav_comment_one()
-    #     n=2
-    # elif n == 2:
-    #     instagram_bot.nav_comment_two()
-    #     n=3
-    # else:
-    #     instagram_bot.nav_comment_three()
-    #     n = 1
-    # instagram_bot.close_new_tab()
+
     if position_x != None:
         instagram_bot.close_new_tab()
     x = x + 1
@@ -530,13 +431,6 @@ while y < itt:
                 instagram_bot.nav_new_tab()
                 instagram_bot.nav_first_post()
 
-                # if position_y != None:
-                #     z = z + 1
-                #     print('IG Likes: ', z)
-                # else:
-                #     print('lokasi like tidak ditemukan')
-                #     break
-
                 instagram_bot.nav_like()
                 if n == 1:
                     instagram_bot.nav_comment_one()
@@ -549,20 +443,7 @@ while y < itt:
                     n = 1
                 
                 break
-    # instagram_bot.open_new_tab()
-    # instagram_bot.nav_new_tab()
-    # instagram_bot.nav_first_post()
-    # instagram_bot.nav_like()
-    # if n == 1:
-    #     instagram_bot.nav_comment_one()
-    #     n=2
-    # elif n == 2:
-    #     instagram_bot.nav_comment_two()
-    #     n=3
-    # else:
-    #     instagram_bot.nav_comment_three()
-    #     n = 1
-    # instagram_bot.close_new_tab()
+
     if position_x != None:
         instagram_bot.close_new_tab()
     x = x + 1
